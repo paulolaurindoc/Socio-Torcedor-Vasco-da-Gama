@@ -1,0 +1,227 @@
+@font-face {
+    font-family: Vasco;
+    src: url(../fontes/fonte_vasco.ttf);
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+body {
+    /* border: 2px solid red; */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+/* HEADER */
+header {
+    /* border: 1px solid green; */
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+
+header h1 {
+    font-family: Vasco, sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+/* MENU */
+header nav {
+    /* border: 2px solid blue; */
+    text-align: right;
+}
+
+header nav ul {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    text-align: center;
+}
+
+header nav ul li {
+    padding: 5px;
+    display: inline-block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+header nav ul li a:hover {
+    color: rgb(207, 255, 3);
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+}
+
+a:valid {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+/*///////////////////////////////////////////////////*/
+
+main {
+    width: 80%;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo-main h1 {
+    text-align: center;
+
+}
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+label {
+    display: block;
+    width: 522px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+select {
+    width: 522px;
+}
+
+.radios {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.radios label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    width: 522px;
+    margin-bottom: -5px;
+}
+
+.botao {
+    text-align: center;
+    padding: 10px;
+}
+
+#botao-submit {
+    font-size: 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 15px 50px 15px 50px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1B1E1A;
+    color: #fbfdfd;
+    margin: auto;
+
+    /* Também coloquei margin-top para o footer ficar afastado dos planos */
+    margin-top: 100px;
+
+    border-top: 10px solid rgb(207, 255, 3);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* mesma coisa */
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footer-caixa {
+    display: flex;
+    gap: 150px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.footer-logo-e-slogan {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    /* horizontal */
+    align-items: center;
+    /* vertical*/
+}
+
+.footer-logo-e-slogan img {
+    width: 25%;
+    padding-top: 25px;
+}
+
+.footer-links-rapidos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links-rapidos ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links-rapidos ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer-rodape {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    color: #888;
+    padding-bottom: 5px;
+}
