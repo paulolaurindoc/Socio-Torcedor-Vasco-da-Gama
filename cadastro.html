@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/estilo-cadastro.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1>Sócio Gigante - Desde 1898 escrevendo história</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="conteudo-main">
+            <h1>Preencha os seus dados para <br> prosseguir com o cadastro</h1>
+            <form action="admin@gmail.com" method="post" class="form-container">
+                <input type="text" placeholder="Nome Completo">
+                <input type="text" placeholder="CPF">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Tenefone">
+                <input type="text" placeholder="Endereço Completo(Rua, Cidade, Estado, CEP)">
+                <input type="text" placeholder="Data de nascimento">
+                <input type="text" placeholder="Profissão">
+
+                <label for="">Estado Civil</label>
+                <select name="estadoCivil">
+                    <option value="solteiro">Solteiro(a)</option>
+                    <option value="casado">Casado(a)</option>
+                    <option value="divorciado">Divorciado(a)</option>
+                    <option value="viuvo">Viúvo(a)</option>
+                </select>
+
+                <label for="">Sexo</label>
+                <div class="radios">
+                    <input type="radio" name="sexo" value="masculino">
+                    <label for="">Masculino</label>
+                    <input type="radio" name="sexo" value="feminino">
+                    <label for="">Feminino</label>
+                    <input type="radio" name="sexo" value="outro">
+                    <label for="">Outro</label>
+                </div>
+
+                <textarea name="" rows=" 4">Observações</textarea>
+
+                <div class="botao">
+                    <input type="submit" id="botao-submit" value="Prosseguir">
+                </div>
+
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer-caixa">
+
+            <div class="footer-logo-e-slogan">
+                <img src="imagens/icone.png" alt="">
+                <p>Juntos somos mais fortes</p>
+            </div>
+
+            <div class="footer-links-rapidos">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#">Notícias</a></li>
+                    <li><a href="#">Cadastro</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-desenvolvedores">
+                <h4>Desenvolvedores</h4>
+                <p>Paulo Vitor Laurindo</p>
+                <p>Pedro Henrik</p>
+                <p>Raoni Barbosa Salvato</p>
+            </div>
+        </div>
+
+        <div class="footer-rodape">
+            <p> &copy; 2025 Clube do Coração - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
