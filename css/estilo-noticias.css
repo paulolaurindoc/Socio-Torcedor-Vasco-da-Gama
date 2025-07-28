@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Vasco;
+    src: url(../fontes/fonte_vasco.ttf);
+}
+
+body {
+    /* border: 2px solid red; */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: #1B1E1A;
+    color: white;
+    border-bottom: 10px solid rgb(207, 255, 3);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-family: Vasco, sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 0px;
+    letter-spacing: 3px;
+    padding-left: 15px;
+}
+
+/* MENU */
+header nav {
+    /* border: 2px solid blue; */
+    text-align: right;
+}
+
+header nav ul {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+}
+
+header nav ul li {
+    padding: 15px;
+    display: inline-block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: rgb(207, 255, 3);
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.lista-noticias {
+    display: flex;
+    padding: 50px;
+}
+
+.card-noticia {
+    padding: 30px;
+    height: 550px;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-noticia h2{
+    font-size: 30px;
+}
+
+.card-noticia .date{
+    font-size: 17px;
+}
+
+.card-noticia p{
+    font-size: 20px;
+}
+
+.botao-ler-mais a{
+    text-decoration: none;
+    background-color: #c8102e;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.botao-ler-mais a:hover{
+    background-color: #a20c24;
+    transform: scale(1.05);
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #1B1E1A;
+    color: #fbfdfd;
+    margin: auto;
+
+    /* Também coloquei margin-top para o footer ficar afastado dos planos */
+    margin-top: 100px;
+
+    border-top: 10px solid rgb(207, 255, 3);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* mesma coisa */
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footer-caixa {
+    display: flex;
+    gap: 150px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.footer-logo-e-slogan {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    /* horizontal */
+    align-items: center;
+    /* vertical*/
+}
+
+.footer-logo-e-slogan img {
+    width: 25%;
+    padding-top: 25px;
+}
+
+.footer-links-rapidos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links-rapidos ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links-rapidos ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-rodape {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    color: #888;
+    padding-bottom: 5px;
+}

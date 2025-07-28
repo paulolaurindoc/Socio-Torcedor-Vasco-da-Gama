@@ -1,0 +1,241 @@
+@font-face {
+    font-family: Vasco;
+    src: url(../fontes/fonte_vasco.ttf);
+}
+
+body {
+    /* border: 2px solid red; */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: #1B1E1A;
+    color: white;
+    border-bottom: 10px solid rgb(207, 255, 3);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-family: Vasco, sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 0px;
+    letter-spacing: 3px;
+    padding-left: 15px;
+}
+
+/* MENU */
+header nav {
+    /* border: 2px solid blue; */
+    text-align: right;
+}
+
+header nav ul {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+}
+
+header nav ul li {
+    padding: 15px;
+    display: inline-block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: rgb(207, 255, 3);
+}
+
+/* BANNER */
+
+main {
+    width: 90%;
+    /* border: 2px solid black; */
+    margin: auto;
+    padding: 10px;
+}
+
+.banner {
+    text-align: center;
+    font-size: large;
+}
+
+.banner p {
+    font-size: 24px;
+}
+
+.banner h2 {
+    font-size: 45px;
+}
+
+#imagem-vasco {
+    height: 380px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    box-sizing: border-box;
+    background-image: url(../imagens/torcida.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px;
+}
+
+/* CARD */
+.planos {
+    /* border: 2px solid purple; */
+    width: 100%;
+    /* Vou mudar o display para flex-box, para tentar arrumar o problema dos planos */
+    display: flex;
+    justify-content: space-between;
+}
+
+.plano {
+    width: 250px;
+    height: 600px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 2px 1px 3px #1B1E1A;
+    border-radius: 5px;
+    color: #1B1E1A;
+
+    /*fixar o botao no rodape*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteudo-plano {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plano h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+.plano ul {
+    list-style: none;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.plano a:active {
+    color: #fbfdfd;
+}
+
+.plano:hover {
+    background-color: rgb(207, 255, 3);
+}
+
+.rodape-plano p {
+    font-size: x-large;
+    text-align: center;
+}
+
+#botao-compra {
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    /* border: 1px solid #1B1E1A; */
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#botao-compra:hover {
+    background-color: #fbfdfd;
+}
+
+span {
+    /* display: flex; */
+
+    /* mesma coisa */
+
+    float: left;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1B1E1A;
+    color: #fbfdfd;
+    margin: auto;
+
+    /* Também coloquei margin-top para o footer ficar afastado dos planos */
+    margin-top: 100px;
+
+    border-top: 10px solid rgb(207, 255, 3);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* mesma coisa */
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footer-caixa {
+    display: flex;
+    gap: 150px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.footer-logo-e-slogan {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    /* horizontal */
+    align-items: center;
+    /* vertical*/
+}
+
+.footer-logo-e-slogan img {
+    width: 25%;
+    padding-top: 25px;
+}
+
+.footer-links-rapidos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links-rapidos ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links-rapidos ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-rodape {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    color: #888;
+    padding-bottom: 5px;
+}
