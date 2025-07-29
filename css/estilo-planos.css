@@ -2,7 +2,9 @@
     font-family: Vasco;
     src: url(../fontes/fonte_vasco.ttf);
 }
-
+a{
+    color: black;
+}
 body {
     /* border: 2px solid red; */
     margin: 0;
@@ -93,6 +95,7 @@ main {
     justify-content: space-between;
 }
 
+
 .caixa-conteudo-img {
     width: 50%;
     height: 538px;
@@ -102,16 +105,13 @@ main {
     background-position: center;
     margin: 25px;
     border-radius: 10px;
+    /* margin: auto; */
 }
 
 .caixa-conteudo-p-a {
     width: 50%;
     margin: 25px;
 }
-
-
-
-
 
 #botao-compra {
     border-radius: 5px;
@@ -133,15 +133,15 @@ a {
 }
 
 a:active {
-    color: black;
+    color: white;
 }
 
 a:valid {
-    color: black;
+    color: white;
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 
@@ -209,4 +209,41 @@ footer {
     padding-top: 10px;
     color: #888;
     padding-bottom: 5px;
+}
+
+/* RESPONDIVIDADE */
+
+
+
+
+
+@media (max-width: 1024px) {
+    
+    .caixa{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .caixa-conteudo{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .footer-caixa{
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+    }
+
+    .caixa-conteudo-img, .caixa-conteudo-p-a{
+        margin: 35px auto;
+    }
 }
