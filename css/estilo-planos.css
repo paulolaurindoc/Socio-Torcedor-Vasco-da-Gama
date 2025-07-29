@@ -2,9 +2,7 @@
     font-family: Vasco;
     src: url(../fontes/fonte_vasco.ttf);
 }
-a{
-    color: black;
-}
+
 body {
     /* border: 2px solid red; */
     margin: 0;
@@ -144,6 +142,9 @@ a:visited {
     color: white;
 }
 
+a{
+    color: black;
+}
 
 /* FOOTER */
 
