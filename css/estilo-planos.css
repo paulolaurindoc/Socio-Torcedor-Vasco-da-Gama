@@ -97,18 +97,51 @@ main {
 .caixa-conteudo-img {
     width: 50%;
     height: 538px;
-    background-image: url(../imagens/imagem-plano\ 400px\ 600px.png);
+    /* background-image: url(../imagens/imagem-plano\ 400px\ 600px.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     margin: 25px;
     border-radius: 10px;
     /* margin: auto; */
 }
 
+.img-camisas-negras{
+    background-image: url(../imagens/Camisas\ Negras_\ Símbolo\ de\ Luta.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
 .caixa-conteudo-p-a {
     width: 50%;
     margin: 25px;
+}
+
+.caixa-conteudo-p-a p{
+    text-indent: 20px;
+}
+
+.caixa-conteudo-p-a h3{
+    text-align: center;
+}
+
+.caixa-conteudo-p-a ul{
+    list-style: disc;
+}
+
+.caixa-conteudo-p-a li{
+    padding: 10px;
+}
+
+.caixa-conteudo-p-a a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.caixa-conteudo-p-a a:hover{
+    text-decoration: underline;
 }
 
 #botao-compra {
@@ -124,22 +157,6 @@ main {
 
 #botao-compra:hover {
     background-color: #fbfdfd;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:active {
-    color: white;
-}
-
-a:valid {
-    color: white;
-}
-
-a:visited {
-    color: white;
 }
 
 a{

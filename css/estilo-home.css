@@ -96,45 +96,32 @@ main {
 
 /* CARD */
 .planos {
-    /* border: 2px solid purple; */
-    width: 100%;
-    /* Vou mudar o display para flex-box, para tentar arrumar o problema dos planos */
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .plano {
-    width: 250px;
-    height: 600px;
-    margin-left: 15px;
-    box-sizing: border-box;
+    width: 170px;
     padding: 10px;
-    box-shadow: 2px 1px 3px #1B1E1A;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
     border-radius: 5px;
-    color: #1B1E1A;
-
-    /*fixar o botao no rodape*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.conteudo-plano {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    box-shadow: 2px 1px 3px #1B1E1A;
 }
 
 .plano h3 {
     text-align: center;
-    font-size: x-large;
 }
 
 .plano ul {
     list-style: none;
-    padding: 10px;
-    padding-bottom: 30px;
+    flex-grow: 1;
+    padding: 5px;
+    /* padding-bottom: 30px; */
 }
 
 .plano a:active {
@@ -146,8 +133,11 @@ main {
 }
 
 .rodape-plano p {
-    font-size: x-large;
+    font-size: 20px;
+    font-weight: bolder;
     text-align: center;
+    margin: auto;
+    align-self: flex-end;
 }
 
 #botao-compra {
@@ -156,7 +146,6 @@ main {
     text-transform: uppercase;
     font-weight: bold;
     font-size: large;
-    /* border: 1px solid #1B1E1A; */
     display: block;
     text-align: center;
     text-decoration: none;
@@ -167,29 +156,16 @@ main {
     background-color: #fbfdfd;
 }
 
-span {
-    /* display: flex; */
-
-    /* mesma coisa */
-
-    float: left;
-}
-
 /* FOOTER */
 
 footer {
     background-color: #1B1E1A;
     color: #fbfdfd;
     margin: auto;
-
-    /* Também coloquei margin-top para o footer ficar afastado dos planos */
     margin-top: 100px;
-
     border-top: 10px solid rgb(207, 255, 3);
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    /* mesma coisa */
     width: 100%;
     float: left;
     box-sizing: border-box;
