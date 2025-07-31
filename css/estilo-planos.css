@@ -97,21 +97,13 @@ main {
 .caixa-conteudo-img {
     width: 50%;
     height: 538px;
-    /* background-image: url(../imagens/imagem-plano\ 400px\ 600px.png);
+    background-image: url(../imagens/imagem-plano\ 400px\ 600px.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; */
+    background-position: center;
     margin: 25px;
     border-radius: 10px;
     /* margin: auto; */
-}
-
-.img-camisas-negras{
-    background-image: url(../imagens/Camisas\ Negras_\ Símbolo\ de\ Luta.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 5px;
 }
 
 .caixa-conteudo-p-a {
