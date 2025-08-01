@@ -69,18 +69,14 @@ header nav ul li a:hover {
 /*///////////////////////////////////*/
 
 main {
-    width: 80%;
-    margin: auto;
-    padding-bottom: 50px;
-    padding-top: 25px;
+    width: 60%;
 }
-
 
 .caixa {
     margin: 0;
-    width: 100%;
-    clear: both;
     background-color: rgb(207, 255, 3);
+    display: flex;
+    align-content: center;
 }
 
 .caixa h1 {
@@ -90,29 +86,19 @@ main {
 
 .caixa-conteudo {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
-.caixa-conteudo-img {
-    width: 50%;
-    height: 538px;
-    /* background-image: url(../imagens/imagem-plano\ 400px\ 600px.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
-    margin: 25px;
+.caixa-conteudo-img img{    
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
     border-radius: 10px;
-    /* margin: auto; */
 }
 
-.img-camisas-negras{
-    background-image: url(../imagens/Camisas\ Negras_\ Símbolo\ de\ Luta.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 5px;
-}
+
 
 .caixa-conteudo-p-a {
     width: 50%;
@@ -250,18 +236,21 @@ footer {
         justify-content: center;
     }
 
-    .footer{
-        flex-direction: column;
-        flex-wrap: wrap;
-        display: flex;
-    }
-    .footer-caixa{
-        flex-wrap: wrap;
-        justify-content: center;
-        display: flex;
-    }
-
     .caixa-conteudo-img, .caixa-conteudo-p-a{
         margin: 35px auto;
     }
+    
+    .footer-caixa{
+        flex-direction: column;
+    }
+
+    .footer-links-rapidos{
+        text-align: center;
+    }
+
+    .footer-desenvolvedores{
+        text-align: center;
+    }
+
+    
 }

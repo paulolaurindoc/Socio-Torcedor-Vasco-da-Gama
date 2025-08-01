@@ -104,11 +104,12 @@ main {
 }
 
 .plano {
-    width: 170px;
+    width: 200px;
+    height: 500px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 20px;
     border-radius: 5px;
     box-shadow: 2px 1px 3px #1B1E1A;
 }
@@ -143,6 +144,7 @@ main {
 #botao-compra {
     border-radius: 5px;
     padding: 10px;
+    margin-top: 20px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: large;
@@ -214,4 +216,40 @@ footer {
     padding-top: 10px;
     color: #888;
     padding-bottom: 5px;
+}
+
+
+
+@media (max-width: 1024px) {
+    
+    .caixa{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .caixa-conteudo{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .caixa-conteudo-img, .caixa-conteudo-p-a{
+        margin: 35px auto;
+    }
+    
+    .footer-caixa{
+        flex-direction: column;
+    }
+
+    .footer-links-rapidos{
+        text-align: center;
+    }
+
+    .footer-desenvolvedores{
+        text-align: center;
+    }
+
+    
 }
