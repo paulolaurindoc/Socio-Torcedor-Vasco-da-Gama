@@ -162,10 +162,15 @@ footer {
     background-color: #1B1E1A;
     color: #fbfdfd;
     margin: auto;
+
+    /* Também coloquei margin-top para o footer ficar afastado dos planos */
     margin-top: 100px;
+
     border-top: 10px solid rgb(207, 255, 3);
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* mesma coisa */
     width: 100%;
     float: left;
     box-sizing: border-box;
@@ -215,8 +220,6 @@ footer {
     color: #888;
     padding-bottom: 5px;
 }
-
-
 
 @media (max-width: 1024px) {
     

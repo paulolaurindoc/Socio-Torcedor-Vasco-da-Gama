@@ -211,7 +211,6 @@ footer {
     text-decoration: none;
 }
 
-
 .footer-rodape {
     text-align: center;
     margin-top: 30px;
@@ -219,4 +218,20 @@ footer {
     padding-top: 10px;
     color: #888;
     padding-bottom: 5px;
+}
+
+@media (max-width: 1024px) {
+    .footer-caixa{
+        flex-direction: column;
+    }
+
+    .footer-links-rapidos{
+        text-align: center;
+    }
+
+    .footer-desenvolvedores{
+        text-align: center;
+    }
+
+    
 }

@@ -236,7 +236,6 @@ footer {
     text-decoration: none;
 }
 
-
 .footer-rodape {
     text-align: center;
     margin-top: 30px;
@@ -248,33 +247,29 @@ footer {
 
 /* RESPONDIVIDADE */
 
-
-
-
-
-@media (max-width: 1024px) {
+@media (min-width: 400px)and (max-width: 1024px) {
     
-    .caixa{
+    main{
+        width: 90%;
+        margin: auto;
+    }
+    .caixa-conteudo{
         display: flex;
         justify-content: center;
-        margin: auto;
-        flex-wrap: wrap;
         flex-direction: column;
-    }
-    
-    .caixa-conteudo{
-        flex-direction: column;
-        justify-content: center;
+        padding: 20px;
     }
 
-    .caixa-conteudo-img, .caixa-conteudo-p-a{
-        margin: 35px auto;
-    }
-}
-
-@media (min-width: 400px)and (max-width: 1024px) {
     .caixa-conteudo-img{
         width: 70%;
+        margin: auto;
+    }
+
+    .caixa-conteudo-p-a{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     ul{
@@ -294,6 +289,4 @@ footer {
     .footer-desenvolvedores{
         text-align: center;
     }
-
-    
 }
