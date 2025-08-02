@@ -6,7 +6,8 @@
 body {
     /* border: 2px solid red; */
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
 }
 
 main {
@@ -91,32 +92,52 @@ main {
 .caixa-conteudo {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 
 .caixa-conteudo-img {
     width: 50%;
-    height: 538px;
-    /* background-image: url(../imagens/imagem-plano\ 400px\ 600px.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
+    height: 560px;
     margin: 25px;
     border-radius: 10px;
     /* margin: auto; */
 }
 
-.img-camisas-negras{
-    background-image: url(../imagens/Camisas\ Negras_\ Símbolo\ de\ Luta.png);
+#img-camisas-negras{
+    background-image: url(../imagens/camisas-negras.jpg);
+    background-size: cover;
+    background-position: right center;
+}
+
+#img-raiz-vascaino{
+    background-image: url(../imagens/raiz-vascainp.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    padding: 5px;
+}
+
+#img-cruz-de-malta{
+    background-image: url(../imagens/cruz-de-malta.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-gigante-da-colina{
+    background-image: url(../imagens/gigante-da-colina.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-dinamite{
+    background-image: url(../imagens/roberto-dinamite.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .caixa-conteudo-p-a {
     width: 50%;
     margin: 25px;
+    font-size: 17px;
 }
 
 .caixa-conteudo-p-a p{
@@ -129,6 +150,7 @@ main {
 
 .caixa-conteudo-p-a ul{
     list-style: disc;
+    font-size: 17px;
 }
 
 .caixa-conteudo-p-a li{
@@ -263,5 +285,17 @@ footer {
 
     .caixa-conteudo-img, .caixa-conteudo-p-a{
         margin: 35px auto;
+    }
+}
+
+@media (min-width: 400px)and (max-width: 1024px) {
+    .caixa-conteudo-img{
+        width: 70%;
+    }
+
+    ul{
+        text-align: center;
+        margin: auto;
+        padding-left: 0;
     }
 }

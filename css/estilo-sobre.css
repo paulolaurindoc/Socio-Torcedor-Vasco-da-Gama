@@ -1,0 +1,42 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-color: gray;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+main{
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+figure{
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin: auto;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(../imagens/socio-torcedor-logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    padding: 5px;
+}
+
