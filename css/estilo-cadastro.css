@@ -100,7 +100,7 @@ textarea {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 input[type="radio"] {
@@ -113,10 +113,12 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
     color: #333;
+    font-size: 18px;
 }
 
 select {
     width: 522px;
+    font-size: 18px;
 }
 
 .radios {
@@ -130,6 +132,7 @@ select {
     display: block;
     width: 522px;
     margin-bottom: -5px;
+    font-size: 18px;
 }
 
 .botao {
@@ -141,8 +144,15 @@ select {
     font-size: 25px;
     border-radius: 6px;
     font-weight: bold;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 15px 50px 15px 50px;
+
+    text-decoration: none;
+    background-color: #c8102e;
+    color: white;
+}
+
+#botao-submit:hover{
+    transform: scale(1.05);
 }
 
 /* FOOTER */
