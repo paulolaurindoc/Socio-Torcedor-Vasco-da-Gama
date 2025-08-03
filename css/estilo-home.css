@@ -103,11 +103,11 @@ main {
 }
 
 .plano {
-    width: 200px;
+    width: 180px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 5px;
     border-radius: 5px;
     box-shadow: 2px 1px 3px #1B1E1A;
 }
@@ -222,23 +222,6 @@ footer {
 }
 
 @media (max-width: 1024px) {
-    
-    .caixa{
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    
-    .caixa-conteudo{
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .caixa-conteudo-img, .caixa-conteudo-p-a{
-        margin: 35px auto;
-    }
     
     .footer-caixa{
         flex-direction: column;
