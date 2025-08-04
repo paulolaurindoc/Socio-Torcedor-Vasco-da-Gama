@@ -50,6 +50,7 @@ header nav ul {
 header nav ul li {
     padding: 15px;
     display: inline-block;
+    font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -72,12 +73,12 @@ main {
     padding-bottom: 50px;
     padding-top: 25px;
     margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .conteudo-main h1 {
     text-align: center;
-
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
 }
 
 .form-container {
@@ -88,6 +89,7 @@ main {
     width: 100%;
     max-width: 500px;
     margin: auto;
+
 }
 
 input[type="text"],
@@ -101,6 +103,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 input[type="radio"] {
@@ -133,6 +136,7 @@ select {
     width: 522px;
     margin-bottom: -5px;
     font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .botao {
@@ -145,13 +149,14 @@ select {
     border-radius: 6px;
     font-weight: bold;
     padding: 15px 50px 15px 50px;
+    font-family: 'Open Sans', sans-serif;
 
     text-decoration: none;
     background-color: #c8102e;
     color: white;
 }
 
-#botao-submit:hover{
+#botao-submit:hover {
     transform: scale(1.05);
 }
 
@@ -166,8 +171,8 @@ footer {
     margin-top: 100px;
 
     border-top: 10px solid rgb(207, 255, 3);
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 
     /* mesma coisa */
     width: 100%;
@@ -221,17 +226,55 @@ footer {
 }
 
 @media (max-width: 1024px) {
-    .footer-caixa{
+    .footer-caixa {
         flex-direction: column;
     }
 
-    .footer-links-rapidos{
+    .footer-links-rapidos {
         text-align: center;
     }
 
-    .footer-desenvolvedores{
+    .footer-desenvolvedores {
         text-align: center;
     }
+}
 
-    
+@media (max-width: 700px) {
+    .form-container {
+        width: 95%;
+        padding: 20px;
+        box-shadow: none;
+    }
+
+    .form-container label,
+    .form-container select {
+        width: 100%;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container input[type="date"],
+    .form-container select,
+    .form-container textarea {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .radios {
+        flex-direction: column;
+    }
+
+    .radios label {
+        width: 100%;
+    }
+
+    #botao-submit {
+        font-size: 20px;
+        padding: 12px 30px;
+    }
+
+    .conteudo-main h1 {
+        font-size: 30px;
+        padding: 0 10px;
+    }
 }

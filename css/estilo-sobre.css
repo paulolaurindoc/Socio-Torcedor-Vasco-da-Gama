@@ -1,11 +1,6 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     background-color: gray;
-}
-
-h1, h2, p{
-    text-align: center;
 }
 
 main{
@@ -14,6 +9,28 @@ main{
     width: 80%;
     margin: auto;
 }
+
+.conteudo h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.conteudo h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.conteudo p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 
 
 figure{

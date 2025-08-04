@@ -5,8 +5,6 @@
 
 body {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;
 }
 
 /* HEADER */
@@ -29,20 +27,19 @@ header h1 {
 
 /* MENU */
 header nav {
-    /* border: 2px solid blue; */
     text-align: right;
 }
 
 header nav ul {
-    /* border: 2px solid yellow; */
     display: inline-block;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 header nav ul li {
     padding: 15px;
     display: inline-block;
+    font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -72,11 +69,14 @@ main {
 }
 
 .banner p {
-    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .banner h2 {
     font-size: 40px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #imagem-vasco {
@@ -103,17 +103,20 @@ main {
 }
 
 .plano {
-    width: 180px;
+    width: 200px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     margin: 5px;
     border-radius: 5px;
     box-shadow: 2px 1px 3px #1B1E1A;
+    margin: 20px;
 }
 
 .plano h3 {
     text-align: center;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .plano ul {
@@ -123,12 +126,20 @@ main {
     /* padding-bottom: 30px; */
 }
 
-.plano a:active {
-    color: #fbfdfd;
+.plano p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.plano ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .plano:hover {
-    background-color: rgb(207, 255, 3);
+    transform: scale(1.10);
 }
 
 .rodape-plano p {
@@ -139,21 +150,19 @@ main {
     align-self: flex-end;
 }
 
-#botao-compra {
+.rodape-plano a {
+    background-color: #c8102e;
+    color: white;
     border-radius: 5px;
     padding: 10px;
     margin-top: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: large;
+
     display: block;
     text-align: center;
     text-decoration: none;
-    color: black;
-}
 
-#botao-compra:hover {
-    background-color: #fbfdfd;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 /* FOOTER */
@@ -167,8 +176,8 @@ footer {
     margin-top: 100px;
 
     border-top: 10px solid rgb(207, 255, 3);
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 
     /* mesma coisa */
     width: 100%;
@@ -222,18 +231,18 @@ footer {
 }
 
 @media (max-width: 1024px) {
-    
-    .footer-caixa{
+
+    .footer-caixa {
         flex-direction: column;
     }
 
-    .footer-links-rapidos{
+    .footer-links-rapidos {
         text-align: center;
     }
 
-    .footer-desenvolvedores{
+    .footer-desenvolvedores {
         text-align: center;
     }
 
-    
+
 }

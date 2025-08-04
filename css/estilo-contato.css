@@ -6,8 +6,6 @@
 body {
     /* border: 2px solid red; */
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;
 }
 
 main {
@@ -51,6 +49,7 @@ header nav ul {
 header nav ul li {
     padding: 15px;
     display: inline-block;
+    font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -66,17 +65,68 @@ header nav ul li a:hover {
     color: rgb(207, 255, 3);
 }
 
-table{
+main {
+    width: 80%;
+    padding-bottom: 50px;
+    padding-top: 25px;
     margin: auto;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 2px 1px 3px #1B1E1A;
 }
 
-th{
+.conteudo-main h1 {
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
 }
 
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.botao {
+    text-align: center;
+    padding: 10px;
+}
+
+#botao-submit {
+    font-size: 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 15px 50px 15px 50px;
+    font-family: 'Open Sans', sans-serif;
+
+    text-decoration: none;
+    background-color: #c8102e;
+    color: white;
+}
+
+#botao-submit:hover {
+    transform: scale(1.05);
+}
 
 footer {
     background-color: #1B1E1A;
@@ -87,8 +137,8 @@ footer {
     margin-top: 100px;
 
     border-top: 10px solid rgb(207, 255, 3);
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 
     /* mesma coisa */
     width: 100%;
@@ -141,3 +191,55 @@ footer {
     color: #888;
     padding-bottom: 5px;
 }
+
+/* RESPONDIVIDADE */
+
+@media (min-width: 400px) and (max-width: 1024px) {
+    
+    main{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .footer-caixa{
+        flex-direction: column;
+    }
+
+    .footer-links-rapidos{
+        text-align: center;
+    }
+
+    .footer-desenvolvedores{
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .form-container {
+        width: 95%;
+        padding: 20px;
+        box-shadow: none;
+    }
+
+    .conteudo-main h1 {
+        font-size: 30px;
+        padding: 0 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    #botao-submit {
+        font-size: 20px;
+        padding: 12px 30px;
+    }
+}
+

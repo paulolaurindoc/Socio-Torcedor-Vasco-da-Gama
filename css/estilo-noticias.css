@@ -6,7 +6,6 @@
 body {
     /* border: 2px solid red; */
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
@@ -43,6 +42,7 @@ header nav ul {
 header nav ul li {
     padding: 15px;
     display: inline-block;
+    font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -79,35 +79,38 @@ header nav ul li a:hover {
     justify-content: space-around;
 }
 
-.card-noticia h2{
+.card-noticia h2 {
     font-size: 30px;
+    font-family: 'Oswald', sans-serif;
 }
 
-.card-noticia .date{
+.card-noticia .date {
     font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.card-noticia p{
-    font-size: 20px;
+.card-noticia p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.botao-ler-mais{
+.botao-ler-mais {
     text-align: center;
 }
 
-.botao-ler-mais a{
+.botao-ler-mais a {
     text-decoration: none;
     background-color: #c8102e;
     color: white;
     border-radius: 8px;
     padding: 10px 20px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     display: inline-block;
-    
+    font-family: 'Open Sans', sans-serif;
 }
 
-.botao-ler-mais a:hover{
+.botao-ler-mais a:hover {
     background-color: #a20c24;
     transform: scale(1.05);
 }
@@ -124,8 +127,8 @@ footer {
     margin-top: 100px;
 
     border-top: 10px solid rgb(207, 255, 3);
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 
     /* mesma coisa */
     width: 100%;
@@ -181,15 +184,15 @@ footer {
 /* RESPONSIVIDADE */
 
 @media (min-width: 400px) and (max-width: 1024px) {
-    .footer-caixa{
+    .footer-caixa {
         flex-direction: column;
     }
 
-    .footer-links-rapidos{
+    .footer-links-rapidos {
         text-align: center;
     }
 
-    .footer-desenvolvedores{
+    .footer-desenvolvedores {
         text-align: center;
     }
 }
