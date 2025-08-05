@@ -219,6 +219,7 @@ footer {
         width: 95%;
         padding: 20px;
         box-shadow: none;
+        margin: auto;
     }
 
     .conteudo-main h1 {
@@ -240,6 +241,17 @@ footer {
     #botao-submit {
         font-size: 20px;
         padding: 12px 30px;
+    }
+    .footer-caixa {
+        flex-direction: column;
+    }
+
+    .footer-links-rapidos {
+        text-align: center;
+    }
+
+    .footer-desenvolvedores {
+        text-align: center;
     }
 }
 

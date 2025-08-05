@@ -226,6 +226,10 @@ footer {
 }
 
 @media (max-width: 1024px) {
+    
+    main{
+        margin: auto;
+    }
     .footer-caixa {
         flex-direction: column;
     }
@@ -240,10 +244,14 @@ footer {
 }
 
 @media (max-width: 700px) {
+    main{
+        margin: auto;
+    }
     .form-container {
         width: 95%;
         padding: 20px;
         box-shadow: none;
+        margin: auto;
     }
 
     .form-container label,

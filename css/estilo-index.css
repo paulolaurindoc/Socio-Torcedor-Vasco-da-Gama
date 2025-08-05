@@ -103,14 +103,13 @@ main {
 }
 
 .plano {
-    width: 200px;
+    width: 185px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    margin: 10px;
     border-radius: 5px;
     box-shadow: 2px 1px 3px #1B1E1A;
-    margin: 20px;
 }
 
 .plano h3 {
