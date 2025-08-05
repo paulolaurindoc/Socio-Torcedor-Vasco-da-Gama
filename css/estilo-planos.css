@@ -106,6 +106,7 @@ main {
     height: 560px;
     margin: 25px;
     border-radius: 10px;
+
 }
 
 #img-camisas-negras{
@@ -268,7 +269,7 @@ footer {
 
 /* RESPONDIVIDADE */
 
-@media (min-width: 400px) and (max-width: 1024px) {
+@media (min-width: 400px) and (max-width: 1410px) {
     
     main{
         width: 90%;
