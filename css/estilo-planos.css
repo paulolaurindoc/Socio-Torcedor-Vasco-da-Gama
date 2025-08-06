@@ -269,7 +269,7 @@ footer {
 
 /* RESPONDIVIDADE */
 
-@media (min-width: 400px) and (max-width: 1410px) {
+@media (min-width: 300px) and (max-width: 1410px) {
     
     main{
         width: 90%;
@@ -299,16 +299,11 @@ footer {
         margin: auto;
         padding-left: 0;
     }
-    
-    .footer-caixa{
-        flex-direction: column;
-    }
 
-    .footer-links-rapidos{
-        text-align: center;
-    }
+}
 
-    .footer-desenvolvedores{
-        text-align: center;
+@media screen and (max-width:1410px) {
+    .caixa-conteudo-p-a p{
+        text-indent: 0;
     }
 }

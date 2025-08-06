@@ -230,17 +230,6 @@ footer {
     main{
         margin: auto;
     }
-    .footer-caixa {
-        flex-direction: column;
-    }
-
-    .footer-links-rapidos {
-        text-align: center;
-    }
-
-    .footer-desenvolvedores {
-        text-align: center;
-    }
 }
 
 @media (max-width: 700px) {
