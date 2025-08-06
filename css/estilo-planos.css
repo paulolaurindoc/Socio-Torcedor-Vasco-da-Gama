@@ -98,6 +98,7 @@ main {
 .caixa-conteudo {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
 }
 
@@ -106,7 +107,6 @@ main {
     height: 560px;
     margin: 25px;
     border-radius: 10px;
-
 }
 
 #img-camisas-negras{

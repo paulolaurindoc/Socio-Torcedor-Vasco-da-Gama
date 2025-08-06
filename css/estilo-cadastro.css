@@ -236,8 +236,13 @@ footer {
     main{
         margin: auto;
     }
+
+    .conteudo-main{
+        width: 100%;
+    }
+
     .form-container {
-        width: 95%;
+        width: 80%;
         padding: 20px;
         box-shadow: none;
         margin: auto;
