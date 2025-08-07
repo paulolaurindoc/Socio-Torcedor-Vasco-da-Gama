@@ -307,3 +307,12 @@ footer {
         text-indent: 0;
     }
 }
+
+@media screen and (max-width:628px){
+    #img-camisas-negras{
+        background-position: center;
+    }
+    #img-gigante-da-colina{
+        background-position: center top;
+    }
+}
