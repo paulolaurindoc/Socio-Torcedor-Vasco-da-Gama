@@ -1,39 +1,36 @@
-body{
+body {
     margin: 0;
     background-color: gray;
 }
 
-main{
+main {
     padding: 10px;
     text-align: center;
     width: 80%;
     margin: auto;
 }
 
-.conteudo h1{
+.conteudo h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
 }
 
-.conteudo h2{
+.conteudo h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
 }
 
-.conteudo p{
+.conteudo p {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.container{
+.container {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
-
-figure{
+figure {
     width: 200px;
     height: 200px;
     /* border: 1px solid black; */
@@ -56,4 +53,3 @@ ul li {
     list-style: none;
     padding: 5px;
 }
-
