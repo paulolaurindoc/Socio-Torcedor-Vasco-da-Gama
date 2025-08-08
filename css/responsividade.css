@@ -60,3 +60,8 @@
 
 
 }
+@media screen and (max-width: 1189px) {
+    .plano{
+        margin: 20px;
+    }
+}
