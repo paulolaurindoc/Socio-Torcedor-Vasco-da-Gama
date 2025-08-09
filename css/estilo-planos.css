@@ -143,6 +143,7 @@ main {
     width: 50%;
     margin: 25px;
     font-size: 18px;
+    text-align: justify;
 }
 
 .caixa-conteudo-p-a h1 {
@@ -270,7 +271,7 @@ footer {
 
 /* RESPONDIVIDADE */
 
-@media (min-width: 300px) and (max-width: 1410px) {
+@media screen and (max-width: 1410px) {
 
     main {
         width: 90%;
@@ -315,5 +316,12 @@ footer {
     }
     #img-gigante-da-colina{
         background-position: center top;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .caixa-conteudo-p-a{
+        width: 100%;
+        text-align: justify;
     }
 }
