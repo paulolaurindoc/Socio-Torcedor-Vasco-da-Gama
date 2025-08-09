@@ -53,3 +53,23 @@ ul li {
     list-style: none;
     padding: 5px;
 }
+
+@media screen and (max-width:784px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    ul{
+        width: 300px;
+        margin: auto;
+        text-align: left;
+        padding: 0;
+    }
+    .email {
+        border-top: 1px solid black;
+        padding: 0;
+        margin-top: 10px;
+    }
+}
