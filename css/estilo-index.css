@@ -236,7 +236,7 @@ footer {
 
 @media screen and (max-width: 1024px) {
     
-    #botao-compra:active {
+    #botao-compra:hover {
     transform: scale(1.05);
     }
 }
