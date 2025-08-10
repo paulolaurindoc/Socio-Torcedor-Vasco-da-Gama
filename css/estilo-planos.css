@@ -324,4 +324,8 @@ footer {
         width: 100%;
         text-align: justify;
     }
+
+    .caixa-conteudo-img{
+        width: 100%;
+    }
 }
