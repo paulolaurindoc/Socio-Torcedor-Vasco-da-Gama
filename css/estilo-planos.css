@@ -285,11 +285,6 @@ footer {
         padding: 20px;
     }
 
-    .caixa-conteudo-img {
-        width: 70%;
-        margin: auto;
-    }
-
     .caixa-conteudo-p-a {
         margin: auto;
         display: flex;
@@ -310,16 +305,7 @@ footer {
     }
 }
 
-@media screen and (max-width:628px){
-    #img-camisas-negras{
-        background-position: center;
-    }
-    #img-gigante-da-colina{
-        background-position: center top;
-    }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .caixa-conteudo-p-a{
         width: 100%;
         text-align: justify;
